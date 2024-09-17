@@ -55,7 +55,7 @@ model = keras.Sequential([
 
     layers.BatchNormalization(),
     layers.Conv2D(filters=1024, kernel_size=3, activation='relu', padding='same'),
-    layers.MaxPool2D(),
+    # layers.MaxPool2D(),
     layers.Dropout(.3),
 
     layers.BatchNormalization(),
@@ -93,3 +93,13 @@ history_frame.loc[:, ['sparse_categorical_accuracy', 'val_sparse_categorical_acc
 # model.save('CIFAR-10-MODEL.keras')
 
 # model = keras.model.load_model('CIFAR-10-MODEL.keras')
+
+
+
+loss, accuracy = model.evaluate(X_test, y_test)
+print(f'loss: {loss}')
+print(f'accuracy: {accuracy}')
+
+# Current scores:
+loss: 0.7955142259597778
+accuracy: 0.7235999703407288
