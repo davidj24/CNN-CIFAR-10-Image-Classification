@@ -124,3 +124,13 @@ print(f'accuracy: {accuracy}')
 # Dropout layers with only 3 total and 64 neurons in the head dense
 # loss: 0.7983840107917786
 # accuracy: 0.7282000184059143
+
+# Dropout layers with only 3 total and 64 neurons in the head dense
+# loss: 0.6357991099357605
+# accuracy: 0.786899983882904
+
+# All layers, no maxPooling on last layer, and no dropout at all
+# loss: 0.5952411890029907
+# accuracy: 0.8084999918937683
+
+# Same as above but 256 neurons in the head
