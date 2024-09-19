@@ -1,0 +1,17 @@
+Benchmarks to reach according to ChatGPT:
+
+A strong score on the CIFAR-10 dataset using a CNN that would stand out to an employer depends on several factors, including the complexity of your model, training techniques, and how you optimize performance.
+
+For sparse categorical accuracy (essentially the same as standard accuracy):
+
+Baseline models like a simple CNN or standard architectures often achieve around 70%-75% accuracy.
+Well-tuned CNN models that have been optimized can achieve accuracy in the 80%-90% range.
+State-of-the-art models using advanced architectures (like ResNet, DenseNet, or EfficientNet) and sophisticated techniques (like data augmentation, regularization, and hyperparameter tuning) often score in the 90%-95% range.
+Key Benchmarks:
+Above 80%: Shows that you can train a model that goes beyond basic implementations.
+Above 85%: Demonstrates good understanding of hyperparameter tuning and model optimization.
+Above 90%: Highly impressive, especially if achieved with a relatively simple or custom architecture.
+Above 93%: This would be considered excellent and could be impressive, especially if you detail how you achieved it.
+In an employment context, the exact score might not be as critical as your ability to explain why the model performs well, the methods you used to improve it, and your knowledge of architecture and optimization trade-offs.
+
+If you can reach 85-90% and explain the process thoroughly, it would definitely be seen as impressive.
