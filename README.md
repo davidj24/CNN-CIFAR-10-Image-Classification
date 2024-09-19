@@ -11,4 +11,5 @@ The Jupyter notebook is what I ran on Kaggle in order to use their GPU (trying t
 Using optuna, ended up with these scores:
 
 sparse_categorical_crossentropy: 0.5892660617828369
+
 sparse_categorical_accuracy: 0.8147000074386597
