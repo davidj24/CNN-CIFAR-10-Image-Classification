@@ -10,6 +10,7 @@ The py file was my baseline model with very little hyperparameter tuning.
 The Jupyter notebook is what I ran on Kaggle in order to use their GPU (trying to run optuna on my own machine took forever).
 Using optuna, ended up with these scores:
 
-sparse_categorical_crossentropy: 0.5892660617828369
+sparse_categorical_crossentropy: 0.5472931265830994
 
-sparse_categorical_accuracy: 0.8147000074386597
+sparse_categorical_accuracy: 0.8424000144004822
+
